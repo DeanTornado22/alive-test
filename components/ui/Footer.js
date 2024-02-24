@@ -61,7 +61,7 @@ function Footer() {
       <div className="bg-[#333333] pb-10 h-fit py-[16px] lg:pl-[125px] lg:pr-[125px] relative w-full">
         <div className="flex lg:flex-row flex-col items-center justify-center lg:justify-between w-full pt-16 lg:pt-24 ">
           <div className="py-[18px] w-[80vw] mb-[34px] block lg:hidden border border-white text-center relative">
-            <p className="font-notosans text-[14px] font-bold ">
+            <p className="font-notosans text-[14px] font-bold text-white ">
               新しいブランド名 <br /> コーポレートサイトはこちら
             </p>
           </div>
