@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${Comorant_Garamond.variable} ${Noto_Sans_JP.variable} ${Sawarabi.variable}`}
+        className={`${Comorant_Garamond.variable} ${Noto_Sans_JP.variable} ${Sawarabi.variable} no-scrollbar`}
       >
         {children}
       </body>
