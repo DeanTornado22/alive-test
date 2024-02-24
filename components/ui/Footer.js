@@ -68,7 +68,9 @@ function Footer() {
           <div className="flex lg:flex-row flex-col items-center justify-center  lg:justify-between gap-[14px]">
             <div className="flex items-center">
               <div className="w-[40px] h-[40px] mr-[16px] rounded-full bg-[#ededed]"></div>
-              <p className="font-cormorant font-bold">NEW BRAND NAME</p>
+              <p className="font-cormorant font-bold text-white">
+                NEW BRAND NAME
+              </p>
             </div>
             <div className="flex gap-[16px] lg:ml-[70px]">
               <Image
@@ -86,7 +88,7 @@ function Footer() {
             </div>
           </div>
 
-          <p className="text-[14px] font-notosans  opacity-[60%] tracking-wide max-lg:mt-[22px]">
+          <p className="text-[14px] text-white font-notosans  opacity-[60%] tracking-wide max-lg:mt-[22px]">
             © 2021 New Brand Name
           </p>
         </div>

@@ -16,7 +16,7 @@ function BoxText() {
           {!isHovered ? (
             <motion.p
               key="first-text"
-              className="font-notosans text-[14px] font-bold text-nowrap"
+              className="font-notosans text-white text-[14px] font-bold text-nowrap"
               initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -27,7 +27,7 @@ function BoxText() {
           ) : (
             <motion.p
               key="second-text"
-              className="font-notosans text-[14px] font-bold"
+              className="font-notosans text-[14px] text-white font-bold"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
